@@ -1,0 +1,47 @@
+body {
+  /* background-image: url("../public/BackroundImage1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  margin: 0%;
+  padding: 0%;
+}
+.form-contain {
+  width: 400px;
+  height: 100px;
+  margin: 5rem auto;
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.spin {
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 50%;
+  border-top-color: red;
+  margin: 2rem auto;
+  animation: spinner 0.6s linear infinite;
+  margin-bottom: 3rem;
+}
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form-contain-1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card1 {
+  border: 2px solid #175728;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: justify;
+  width: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 2px #1f8b9c;
+}
